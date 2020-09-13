@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CA</title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Call IMDB</h1>
+        <form id="contactForm">
+            <div>
+                <input type="text" id="firstName" placeholder="Enter your name" />
+                <div id="firstNameError" class="error">Name required</div>
+            </div>
+            <div>
+                <input type="text" id="subject" placeholder="Enter a subject" />
+                <div id="subjectError" class="error">Subjects must include 10 characters</div>
+            </div>
+            <div>
+                <input type="text" id="email" placeholder="Enter your e-mail" />
+                <div id="emailError" class="error">Enter a valid e-mail adress</div>
+            </div>
+            <div>
+                <input type="text" id="adress" placeholder="Enter your adress" />
+                <div id="adressError" class="error">Must be at least 25 characters</div>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>
